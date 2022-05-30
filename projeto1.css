@@ -1,0 +1,73 @@
+body{
+    background: rgb(142, 145, 145);
+}
+
+.emBloco{
+    background-color: rgb(10, 10, 10);
+    color: antiquewhite;
+}
+
+#paragrafo1{
+    text-align: center;
+    text-indent: 30px;
+    text-transform: uppercase;
+    
+}
+
+li{
+    display: inline-block;
+    background-color: rgb(243, 4, 4);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    text-indent: 30px;
+
+}
+
+.robloxjpg{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragrafo1{
+    text-align: center;
+    background-color: rgb(243, 4, 4);
+    color: antiquewhite;
+}
+
+.roblox2jpg{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragrafo2{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+
+#paragrafo3{
+    text-align: center;
+    background-color: rgb(243, 4, 4);
+    color: antiquewhite;
+}
+
+.roblox3jpg{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#paragrafo4{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+
+

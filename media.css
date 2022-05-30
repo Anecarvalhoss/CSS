@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px){
+    body{
+        background: yellow;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        background: orange;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        background: blue;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    body{
+        background: green;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        background: pink;
+    }
+}
+
+/*h1{
+    color: rgb(241, 205, 1);
+}*/
+
+#meuId{
+    color: rgb(232, 248, 8);
+}

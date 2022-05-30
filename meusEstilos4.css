@@ -1,0 +1,90 @@
+/*propriedade display - serve para organizar os componetes dentro da pagina
+
+block 
+inline
+inline-block
+flex
+
+display - block - especifica que o elemento vai ocupar a linha 
+- div
+-titulos
+-paragrafo
+-form
+-reader
+-section
+-footer
+
+inline - especifica que o elemento não ocupa a linha toda e nem se inicia uma proxima linha
+
+*/
+
+
+.emBloco{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.emLinha{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+.blocoEmLinha{
+    display: inline;
+}
+
+li{
+    display: inline-block;
+    background-color: rgb(255, 102, 0);
+    width: 100px;
+    height: 50px;
+}
+
+.botao{
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+
+    /*display: inline-block; */
+    display: flex; /* permite centralizar um elemento (necessario acertar a margem)*/
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 50px;
+    width: 50%;
+
+    line-height: 50px;
+
+}
+
+
+
+.vermelho{
+    display: inline-block;
+    background-color: rgb(245, 8, 8);
+    color: antiquewhite;
+}
+
+.verde{
+    display: inline-block;
+    background-color: rgb(52, 165, 42);
+    color: antiquewhite;
+}
+
+.azul{
+    display: inline-block;
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.todasDivs{
+    display: inline-block;
+    height: 60px;
+    width: 30%;
+}
+
+.verde:hover{
+    /*display: none;*/
+    visibility: hidden;
+}

@@ -1,0 +1,60 @@
+/*POSITION
+
+> static
+> relative - em relativo ao elemento pai
+> fixed - fixado na página
+> absolute
+> stich (pegaso) */
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: blue;
+    width: 80%;
+    height: 400px;
+
+}
+
+.divs{
+    width: 30%; /*div pai */
+    height: 100px; /*altura */
+    border: 1px solid black;
+    color: white;
+}
+
+.div1{
+    position: relative; /* tem q especificar a posição da position(top)abaixo */
+    top: 50px;
+    left: 50%;
+    background-color: blueviolet;
+    z-index: 2; /*profundidade */
+}
+
+.div2{
+    position: relative;
+    background-color: black;
+    z-index: 2;
+}
+
+.div3{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: red;
+}
+
+.whats{
+    background: green;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: bisque;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
